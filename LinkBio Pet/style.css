@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+
+#bg {
+    position: fixed; 
+    top: -40%; 
+    left: -50%; 
+    width: 200%; 
+    height: 180%;
+  }
+  #bg img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+    background-size: cover;
+  }
+
+.link-bio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin:10px ;
+    gap: 15px;
+    transform: translate(10%, 10%) 
+    
+}
+
+.link-bio h1{
+    color: rgb(247, 175, 76);
+    font-size: 55px;
+    font: bolder solid;
+}
+
+.link-bio a {
+    color: #ffffff;
+    background-color: rgb(78, 75, 75);
+    padding:20px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    border: solid;
+    border-radius: 30px;
+
+}
